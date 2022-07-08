@@ -65,9 +65,6 @@ contract JointSavings {
         accountOne=account1;
         accountTwo=account2;
     }
-
-    /*
-    Finally, add the **default fallback function** so that your contract can store Ether sent from outside the deposit function.
-    */
-    // YOUR CODE HERE!
+    // Adding the **default fallback function** so that your contract can store Ether sent from outside the deposit function.
+    function() external payable {}
 }

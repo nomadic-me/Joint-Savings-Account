@@ -91,6 +91,11 @@
 				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
 			}
 		],
 		"devdoc": {
@@ -114,9 +119,9 @@
 	},
 	"sources": {
 		"joint_savings.sol": {
-			"keccak256": "0x4990c577deaf39423e3304b26e077c3e4f19ac921a39740dd48aa1d83ac5b467",
+			"keccak256": "0xf9f8f2567523542173e6b1c959d2a2b4eca9f05f653e033df3c9902cf43a608d",
 			"urls": [
-				"bzzr://4e6c973735854c4ab1ffe099e3c68764b92ee3990f8409b7bc41e8e66896ccf8"
+				"bzzr://5847b0a03bc42cd4037eb265c03b3d2552b8f1630356d9811ca019b73d4c726f"
 			]
 		}
 	},
