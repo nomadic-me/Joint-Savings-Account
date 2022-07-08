@@ -119,9 +119,9 @@
 	},
 	"sources": {
 		"joint_savings.sol": {
-			"keccak256": "0xf9f8f2567523542173e6b1c959d2a2b4eca9f05f653e033df3c9902cf43a608d",
+			"keccak256": "0xab8c29daf95e33f50c083c81a80176281633186ac48de4f02d1b8ca10ab273ee",
 			"urls": [
-				"bzzr://5847b0a03bc42cd4037eb265c03b3d2552b8f1630356d9811ca019b73d4c726f"
+				"bzzr://7903cb2cc6e5e8b95cd628075a76c6e1d02588a60779c68ad3926ff06c5717fd"
 			]
 		}
 	},
