@@ -43,6 +43,6 @@ Challenge / Project from Fintech Bootcamp for Solidity Smart Contracts Week
 
 ### Before Withdrawing and Last To Withdraw functions
 
-|  **Before** |  **After Withdraw and LastToWithDraw ** |
+|  **Before** |  **After Withdraw and LastToWithdraw** |
 |---|---|
-| ![](Images/RemixBeforeWithDrawingToAccountOne.png)  | ![](Images/RemixLastToWithdraw.png)  |
+| ![](Images/RemixBeforeWithDrawingToAccountOne.png)  | ![](Images/RemixLastToWithDraw.png)  |
