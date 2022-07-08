@@ -26,6 +26,7 @@ contract JointSavings {
     - A variable of type `address public` named `lastToWithdraw`
     - Two variables of type `uint public` named `lastWithdrawAmount` and `contractBalance`.
     */
+    
     // YOUR CODE HERE!
 
     /*
