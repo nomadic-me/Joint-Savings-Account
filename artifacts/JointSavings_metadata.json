@@ -1,45 +1,14 @@
 {
 	"compiler": {
-		"version": "0.5.0+commit.1d4f565a"
+		"version": "0.5.17+commit.d19bba13"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"constant": false,
-				"inputs": [
-					{
-						"name": "amount",
-						"type": "uint256"
-					},
-					{
-						"name": "recipient",
-						"type": "address"
-					}
-				],
-				"name": "withdraw",
-				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"constant": false,
-				"inputs": [
-					{
-						"name": "account1",
-						"type": "address"
-					},
-					{
-						"name": "account2",
-						"type": "address"
-					}
-				],
-				"name": "setAccounts",
-				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "function"
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
 			},
 			{
 				"constant": true,
@@ -47,20 +16,7 @@
 				"name": "contractBalance",
 				"outputs": [
 					{
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"payable": false,
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"constant": true,
-				"inputs": [],
-				"name": "lastWithdrawAmount",
-				"outputs": [
-					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
@@ -84,6 +40,7 @@
 				"name": "lastToWithdraw",
 				"outputs": [
 					{
+						"internalType": "address",
 						"name": "",
 						"type": "address"
 					}
@@ -93,9 +50,59 @@
 				"type": "function"
 			},
 			{
-				"payable": true,
-				"stateMutability": "payable",
-				"type": "fallback"
+				"constant": true,
+				"inputs": [],
+				"name": "lastWithdrawAmount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "account1",
+						"type": "address"
+					},
+					{
+						"internalType": "address payable",
+						"name": "account2",
+						"type": "address"
+					}
+				],
+				"name": "setAccounts",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address payable",
+						"name": "recipient",
+						"type": "address"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -109,7 +116,7 @@
 		"compilationTarget": {
 			"joint_savings.sol": "JointSavings"
 		},
-		"evmVersion": "byzantium",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"optimizer": {
 			"enabled": false,
@@ -119,9 +126,10 @@
 	},
 	"sources": {
 		"joint_savings.sol": {
-			"keccak256": "0xab8c29daf95e33f50c083c81a80176281633186ac48de4f02d1b8ca10ab273ee",
+			"keccak256": "0x09d21722608b7be6708c42dd56e5615d0b602cd7a49177dc751b75e6bc3638b1",
 			"urls": [
-				"bzzr://7903cb2cc6e5e8b95cd628075a76c6e1d02588a60779c68ad3926ff06c5717fd"
+				"bzz-raw://d6564ab591b20d208689be850fb43d9b66cf08146c172f18dd47920ea66bab66",
+				"dweb:/ipfs/QmbmZNkTnqFPsnjjYs93Uvv8soxNvDGQE4pLScvnEniFJe"
 			]
 		}
 	},
